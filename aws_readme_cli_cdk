@@ -1,0 +1,21 @@
+AWS CLI:
+to configure aws cli:
+- get the install from aws.amazon.com
+/usr/local/bin/aws --version  -- command to check aws version
+- crerate a user in iam
+- you would want to use that key for that user to configure here in shell
+- chose your region, and output is yaml
+
+for more documentation/commands to start/stop ec2, etc.,:
+https://aws.amazon.com/cli/?nc2=type_a
+
+
+AWS CDK:
+prereq is again - node/npm
+run npm --version
+or node --version to see that version
+
+step01:
+npm install -g aws-cdk
+
+to check version: cdk --version
